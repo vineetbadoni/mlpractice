@@ -7,16 +7,17 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 
 import bisect
 import random
+import seaborn as sb
 
 def Mean(t):
     """Computes the mean of a sequence of numbers.
-
     Args:
         t: sequence of numbers
 
     Returns:
         float
     """
+    sb.
     return float(sum(t)) / len(t)
 
 
